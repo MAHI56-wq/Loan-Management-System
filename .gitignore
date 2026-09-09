@@ -1,0 +1,4 @@
+target/
+loan-management.db
+.idea/
+*.iml
