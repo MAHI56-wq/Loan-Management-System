@@ -1,0 +1,1 @@
+package com.loanms.patterns.adapter; public class SmsNotificationAdapter implements NotificationChannel { private final LegacyNotificationService legacy=new LegacyNotificationService(); public void notify(String recipient,String message){legacy.sendText(recipient,message);} }

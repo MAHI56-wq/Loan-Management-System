@@ -1,0 +1,1 @@
+package com.loanms.patterns.command; import com.loanms.service.LoanService; public class RejectLoanCommand implements LoanCommand { private final LoanService service; private final int loanId; public RejectLoanCommand(LoanService s,int id){service=s;loanId=id;} public void execute(){service.reject(loanId);} }

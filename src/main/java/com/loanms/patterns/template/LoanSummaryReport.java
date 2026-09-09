@@ -1,0 +1,1 @@
+package com.loanms.patterns.template; import com.loanms.service.ReportService; public class LoanSummaryReport extends ReportTemplate { private final ReportService service; public LoanSummaryReport(ReportService s){service=s;} protected String body(){return service.summary().toString();} }

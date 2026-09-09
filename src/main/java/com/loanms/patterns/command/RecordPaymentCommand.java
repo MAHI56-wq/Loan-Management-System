@@ -1,0 +1,1 @@
+package com.loanms.patterns.command; import com.loanms.service.LoanService; public class RecordPaymentCommand implements LoanCommand { private final LoanService service; private final int loanId; private final double amount; public RecordPaymentCommand(LoanService s,int id,double a){service=s;loanId=id;amount=a;} public void execute(){service.recordPayment(loanId,amount);} }
