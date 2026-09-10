@@ -1,5 +1,5 @@
 INSERT OR IGNORE INTO customer(id,name,phone,email) VALUES
-(1,'Amina Rahman','01700000001','amina@example.com'),
+(1,'Mahi Rahman','01700000001','mahi@example.com'),
 (2,'Tanvir Hasan','01700000002','tanvir@example.com');
 
 INSERT OR IGNORE INTO officer(id,name,phone,email) VALUES
